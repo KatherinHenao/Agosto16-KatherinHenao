@@ -1,0 +1,45 @@
+git init
+git config user.name KatherinHenao
+git config user.email katherin.henao@udea.edu.co
+git remote add origin https://github.com/KatherinHenao/Agosto16-KatherinHenao.git
+touch main.js
+touch index.html
+git add .
+git commit -m "commit 01 de katherinHenao"
+git status
+git push origin master
+git branch feature
+git checkout feature
+mkdri Hadware
+mkdir Hadware
+mkdir Software
+mkdir SeguridadInformatica
+cd Hadware/
+touch resumen.txt.
+cd ..
+cd Software/
+touch resumen.txt.
+cd ..
+cd SeguridadInformatica/
+touch resumen.txt.
+cd ..
+git add .
+cd Software
+mv resumen.txt. resumen.txt
+cd ..
+cd Hadware/
+mv resumen.txt. resumen.txt
+cd ..
+cd SeguridadInformatica/
+mv resumen.txt. resumen.txt
+cd ..
+git add .
+git commit -m "commit 01 de katherinHenao"
+git push origin feature
+git checkout master
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+echo "1.Google Chrome \r\n 2.SSMS  \r\n  3.Excel" > resumenHardware.txt
+echo "1.Monitor \r\n 2.Parlantes  \r\n  3.Teclado" > resumenSoftware.txt
+touch comandos.txt
+history
